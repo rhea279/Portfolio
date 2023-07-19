@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+</head>
+
+<body>
+    <section class="hero">
+        <div class="main-width">
+            <header>
+                <div class="logo">
+                    <img src="logo.jpg">
+                </div>
+                <nav>
+                    <ul class="nav-list">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#service">Services</a></li>
+                        <li><a href="#interested">Interested</a></li>
+
+                        <li class="btn"><a href="#contact">Contact Me</a></li>
+                        <li><button onclick="mode()" class="button2"><i class="fa-solid fa-moon"></i> Dark Mode </button></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="container">
+                <div class="hero-text">
+                    <h3>Hey, There!</h3>
+                    <h1>I am <span class="input"></span></h1>
+                    <p>I'm a fresher Front-End Web Developer based in Mathura, India.<br>Helping people turn their ideas into sites & apps that work.<br>Professional and Cost-Effective</p>
+                    <div class="social">
+                        <a href=https://www.instagram.com><i class="fa-brands fa-instagram" style="color: #FF69B4;"></i></a>
+                        <a href=https://www.linkedin.com/in/rhea-lather-8b1a7a230><i class="fa-brands fa-linkedin" style="color: #FF69B4;"></i></a>
+                        <a href=https://github.com/rhea279/Portfolio.git><i class="fa-brands fa-github" style="color: #FF69B4;"></i></a>
+                    </div>
+                    <button type="button">More About Me</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="main">
+            <img src="../Rhea/Screenshot_20220702_232614.jpg">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <h4>Developer<span> & Designer</span></h4>
+                <p>I am a front-end web developer. I can provide clean code. I also make the website more and more interactive with web animations. A responsive design makes your website accessible to all users, regardless of their device.</p>
+                <button type="button">Let's Talk</button>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="service" id="service">
+            <div class="title">
+                <h2> My Services</h2>
+            </div>
+            <div class="box">
+                <div class="card">
+                    <div>
+                        <i class="fas fa-bars"></i>
+                        <h4>Web Design</h4>
+                        <p> Every website that is built should be responsive and fast.
+                        </p>
+                    </div>
+                    <div>
+                        <p style="text-align: center;">
+                            <a class="button" href="#">Read More</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <i class="fas fa-user"></i>
+                    <h4>Creating Dashboard</h4>
+                    <p> Representing data in form of Dashboard helps in making sense of dirty data.
+                    </p>
+                    <p style="text-align: center;">
+                        <a class="button" href="#">Read More</a>
+                    </p>
+                </div>
+
+                <div class="card">
+                    <i class="fa-brands fa-java"></i>
+                    <h4>Java Programming</h4>
+                    <p>Creating apps and programs using java programming.
+                    </p>
+                    <p style="text-align: center;">
+                        <a class="button" href="#">Read More</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="interested" id="interested">
+        <div class="title">
+            <h2>I want to work for<span> These Brands</span>
+            </h2>
+        </div>
+        <div class="container">
+            <aside>
+                <div class="photo-grid">
+                    <img src="meta.png">
+                    <img src="infosys.png">
+                    <img src="google.png">
+                    <img src="amazon.png"></div>
+            </aside>
+
+        </div>
+        <div class="interest-text">
+            <p>
+                I am incredibly passionate about working with Google, Amazon, Meta, and Infosys. The opportunity to contribute my skills and ideas to these industry leaders fills me with excitement and determination. Their commitment to pushing the boundaries of technology
+                and innovation is inspiring, and I dream of being a part of their talented teams. Each day, my desire to work with these prestigious organizations intensifies, and I am fully committed to making this dream a reality. It wouldn't just be
+                a job; it would be a lifelong passion that drives my professional journey.
+            </p>
+        </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="title">
+            <h2>
+                Contact me
+            </h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Get in Touch</div>
+                    <p>Let's build more interactive and creative website together.</p>
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Name</div>
+                                <div class="sub-title">Rhea Lather</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head">Address</div>
+                                <div class="sub-title">Mathura, India</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">rlather354@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">Message me</div>
+                    <form action="#">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Name" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                        </div>
+                        <div class="button-area">
+                            <button type="submit">Send message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".input", {
+            strings: ["Rhea Lather.", "Web Developer.", "Coder."],
+            typeSpeed: 70,
+            backSpeed: 60,
+            loop: true
+        });
+
+        function mode() {
+            let element = document.body;
+            element.classList.toggle("dark");
+        }
+    </script>
+
+</body>
+
+</html>
